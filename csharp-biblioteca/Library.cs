@@ -8,7 +8,8 @@ namespace csharp_biblioteca
 {
     public class Library
     {
-        List<Document> documentList = new List<Document>();
-        
+        public List<User> users = new();
+        public List<Document> documents = new();
+        public List<Rent> rents = new();
     }
 }
