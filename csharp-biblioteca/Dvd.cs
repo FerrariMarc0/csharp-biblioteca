@@ -19,7 +19,7 @@ namespace csharp_biblioteca
         public override void InfoPrint()
         {
             base.InfoPrint();
-            Console.WriteLine($"                                - Durata: {this.Duration} min");
+            Console.WriteLine($"- Durata: {this.Duration} min\n");
         }
     }
 }

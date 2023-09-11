@@ -19,7 +19,7 @@ namespace csharp_biblioteca
         public override void InfoPrint()
         {
             base.InfoPrint();
-            Console.WriteLine($"                                - Numero di pagine: {this.PagesNumber}");
+            Console.WriteLine($"- Numero di pagine: {this.PagesNumber}\n");
         }
     }
 }

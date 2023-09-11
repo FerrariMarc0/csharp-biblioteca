@@ -51,14 +51,7 @@ namespace csharp_biblioteca
         //METODI PUBBLICI
         public virtual void InfoPrint()
         {
-            Console.WriteLine($@"
-                                Documento {this.DocumentId}:
-                                - Titolo: {this.Title}
-		                - Anno: {this.ReleaseYear}
-                                - Categoria: {this.Category}
-                                - Scaffale: {this.ShelfNumber}
-                                - Autore: {this.Author}
-                                ");
+            Console.WriteLine($"Documento {this.DocumentId}:\r\n- Titolo: {this.Title}\r\n- Anno: {this.ReleaseYear}\r\n- Categoria: {this.Category}\r\n- Scaffale: {this.ShelfNumber}\r\n- Autore: {this.Author}");
         }
 
     }
